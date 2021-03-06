@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from '../Header/Header';
 import ResultsContainer from '../ResultsContainer/ResultsContainer';
 import SearchBox from '../SearchBox/SearchBox';
-
+import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
             <ResultsContainer
                 suggestedNames={suggestedNames}
             ></ResultsContainer>
+            <Footer></Footer>
         </div>
     );
 }

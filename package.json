@@ -4,6 +4,8 @@
     "private": true,
     "homepage": "http://priyank-ayron.github.io/nameit/",
     "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
         "@rstacruz/startup-name-generator": "^0.3.0",
         "@testing-library/jest-dom": "^5.11.9",
         "@testing-library/react": "^11.2.5",
